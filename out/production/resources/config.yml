@@ -1,0 +1,5 @@
+# The radius (in blocks) to search for minecarts when connecting or disconnecting
+connection-radius: 5
+
+# Maximum number of minecarts that can be connected in a single train
+max-connected-carts: 10

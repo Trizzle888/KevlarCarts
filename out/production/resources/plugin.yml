@@ -1,0 +1,22 @@
+name: KevlarCarts
+version: 1.0
+main: kevlar.kevlarCarts.KevlarCarts
+api-version: 1.20
+
+commands:
+  kevlarcartsconnect:
+    description: Connects nearby minecarts together
+    usage: /<command>
+    permission: kevlarcarts.connect
+  kevlarcartsdisconnect:
+    description: Disconnects nearby minecarts
+    usage: /<command>
+    permission: kevlarcarts.disconnect
+  kevlarcartsdriver:
+    description: Makes you the driver of connected carts
+    usage: /<command>
+    permission: kevlarcarts.driver
+  kevlarcartsreload:
+    description: Reloads the plugin configuration
+    usage: /<command>
+    permission: kevlarcarts.reload
